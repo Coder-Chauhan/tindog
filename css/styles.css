@@ -41,6 +41,15 @@ em {
 	font-size: 1.2rem;
 }
 
+a {
+	text-decoration-line: none;
+	color: unset;
+}
+
+a:hover {
+	color: unset;
+}
+
 /*navbar styling*/
 .navbar {
 	padding-bottom: 4.5rem;
