@@ -1,35 +1,7 @@
 body {
 	font-family: "Montserrat";
+	text-align: center;
 }
-
-#title {
-	background-color: #ff4c68;
-	color: #fff;
-}
-
-.container-fluid {
-
-	padding: 3% 15%;
-}
-
-h1 {
-	font-family: "Montserrat" ;
-	font-size: 3.5rem;
-	line-height: 1.5;
-}
-
-h2 {
-	font-family: "Montserrat";
-	font-size: 2.5rem;
-	line-height: 1.5;
-}
-
-h3 {
-	font-family: "Montserrat";
-	font-size: 1.5rem;
-}
-
-
 
 p {
 	color: #8f8f8f;
@@ -49,6 +21,24 @@ a {
 a:hover {
 	color: unset;
 }
+
+
+.heading {
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+	text-align: left;
+}
+
+.container-fluid {
+
+	padding: 3% 15%;
+}
+
 
 /*navbar styling*/
 .navbar {
@@ -106,8 +96,11 @@ a:hover {
 	padding: 7% 15%;
 }
 
+.feature-title {
+	font-size: 1.5rem;
+}
+
 .feature-box {
-	text-align: center;
 	padding: 5%;
 }
 
@@ -125,9 +118,13 @@ a:hover {
 
 #testimonials {
 	
-	text-align: center;
 	background-color: #ef8172; 
 	color: #fff;
+}
+
+.testimonial-text {
+	font-size: 2.5rem;
+	line-height: 1.5;
 }
 
 .carousel-item {
@@ -146,7 +143,6 @@ a:hover {
 
 #press {
 	background-color: #ef8172;
-	text-align: center;
 	padding-bottom: 3%; 
 }
 
@@ -160,7 +156,11 @@ a:hover {
 
 #pricing {
 	padding: 100px;
-	text-align: center;
+}
+
+.price-text {
+	font-size: 2.5rem;
+	line-height: 1.5;
 }
 
 .pricing-column {
@@ -173,7 +173,6 @@ a:hover {
 .download {
 	background-color: #ff4c68;
 	color: #fff;
-	text-align: center;
 	padding: 5% 15% 5% 15%;
 }
 
@@ -185,7 +184,6 @@ a:hover {
 /*Footer Section*/
 
 .footer-content {
-	text-align: center;
 	padding: 8% 15% 6% 15%;
 }
 
@@ -226,5 +224,8 @@ a:hover {
 	.nav-item {
 	position: relative;
 	left: 0%;
+	}
+
 }
+
 
